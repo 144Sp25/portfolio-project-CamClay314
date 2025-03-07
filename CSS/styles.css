@@ -1,0 +1,117 @@
+/* Author: Cameron Clay */
+/* File Name: styles.css */
+/* Date: 3/6/2025 */
+
+/* CSS Reset - To standardize browser behavior */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles - Apply to all pages */
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* Custom Google Font + Fallback */
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 10px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px; /* Rounded corners */
+}
+
+header img {
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+/* Navigation - Mobile Friendly */
+nav {
+    background-color: #333;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+nav li {
+    margin: 5px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    display: block;
+    text-align: center;
+}
+
+/* Main Content */
+main {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Specific Section Styles */
+#about-content,
+#contact-content {
+    margin-top: 10px;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    color: #004499;
+}
+
+/* Utility Classes */
+.rounded {
+    border-radius: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.big-shoulders-<uniquifier> {
+  font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
